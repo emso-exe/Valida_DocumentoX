@@ -1,0 +1,24 @@
+{
+    "name": "emso-exe/valida_documentox",
+    "description": "Biblioteca para validação de documentos.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Estênio Mariano",
+            "email": "dev.emso.exe@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Search": "src/"
+        },
+        "psr-4":{
+            "Emso\\ValidaDocumentoX\\": "src/"
+        }
+    }
+}
