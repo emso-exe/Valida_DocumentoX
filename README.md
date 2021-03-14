@@ -1,6 +1,6 @@
 <img src="valida_documentox.png" alt="" width="200" height="200"> 
 
-# CepX
+# Valida DocumentoX
 
 Biblioteca para validação de documentos (CPF, RG e CNPJ).
 
