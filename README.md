@@ -1,4 +1,4 @@
-<img src="valida_documentox.png" alt="" width="200" height="200"> 
+<img src="valida_documentox.png" alt="" width="275" height="89"> 
 
 # Valida DocumentoX
 
