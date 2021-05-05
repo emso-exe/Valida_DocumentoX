@@ -14,8 +14,8 @@ final class ValidateCPF
 
     /**
      * Método checkCPF
-     * Método privado, estático para tratamento de CPF, removendo caracteres não numéricos, verificando a quantidade, 
-     * verificando se é uma sequência de números idênticos e validando se o CPF é válido.
+     * Método privado, estático para tratamento de CPF, removendo caracteres não numéricos, verificando
+     * a quantidade, se é uma sequência de números idênticos e validando se o CPF é válido.
      * @param string $cpf
      * Parâmetro para recebimento de CPF.
      * @return int $cpf
@@ -32,18 +32,20 @@ final class ValidateCPF
             die('CPF com sequência de números idênticos.');
         }
 
-        $num_arr = [9, 10];
+        $qtde_loop = [9, 10];
 
-        foreach ($num_arr as $n) {
-            $sum = 0;
-            $num = $n + 1;
+        foreach ($qtde_loop as $n) {
+
+            $soma                    = 0;
+            $numero_para_multiplicar = $n + 1;
+
             for ($i = 0; $i < $n; $i++) {
-                $sum += $cpf[$i] * ($num--);
+                $soma += $cpf[$i] * ($numero_para_multiplicar--);
             }
 
-            $result = (($sum * 10) % 11);
+            $resultado = (($soma * 10) % 11);
 
-            if ($cpf[$n] != $result) {
+            if ($cpf[$n] != $resultado) {
                 die('CPF inválido');
             }
         }
@@ -53,10 +55,10 @@ final class ValidateCPF
 
     /**
      * Método cpf
-     * Método público que ao ser instanciado, recebe o CPF, retornando o mesmo se for válido ou
-     * caso contrário uma mensagem de erro.
+     * Método público que ao ser instanciado, recebe o CPF, retornando o mesmo
+     * se for válido ou caso contrário uma mensagem de erro.
      * @param string $cpf
-     * Parâmetro para recebimento de CEP que será tratado no método checkZipCode. 
+     * Parâmetro para recebimento de CPF que será tratado no método checkCPF.
      * @return int
      */
     public function cpf(string $cpf)
