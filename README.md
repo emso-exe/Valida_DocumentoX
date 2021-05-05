@@ -40,7 +40,7 @@ http://localhost:8000/ExampleCPF.php
 http://localhost:8000/ExampleCNPJ.php
 ```
 
-## Example.php em execução
+## ExampleCPF.php e ExampleCNPJ.php em execução
 
 <img src="imagem_valida_documentox.png" alt=""> 
 
