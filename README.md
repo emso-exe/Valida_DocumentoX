@@ -42,7 +42,7 @@ http://localhost:8000/ExampleCNPJ.php
 
 ## Example.php em execução
 
-<img src="imagem_valida_documentox.png" alt="" width="650" height="650"> 
+<img src="imagem_valida_documentox.png" alt="" width="750" height="750"> 
 
 ## Créditos
 
