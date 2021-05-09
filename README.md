@@ -31,13 +31,11 @@ git clone https://github.com/emso-exe/Valida_DocumentoX.git
 
 **Método 1**. No diretório Valida_DocumentoX via terminal.
 ```bash
-php ExampleCPF.php
-php ExampleCNPJ.php
+php Example.php
 ```
 **Método 2**. Com o servidor web, por exemplo do PHP, ativado.
 ```php
-http://localhost:8000/ExampleCPF.php
-http://localhost:8000/ExampleCNPJ.php
+http://localhost:8000/Example.php
 ```
 
 ## Example.php em execução
