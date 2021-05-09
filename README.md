@@ -2,7 +2,7 @@
 
 # Valida DocumentoX
 
-Biblioteca para validação de documentos (CPF, RG e CNPJ).
+Biblioteca para validação de documentos (CPF e CNPJ).
 
 ## Install
 
@@ -40,9 +40,9 @@ http://localhost:8000/ExampleCPF.php
 http://localhost:8000/ExampleCNPJ.php
 ```
 
-## ExampleCPF.php e ExampleCNPJ.php em execução
+## Example.php em execução
 
-<img src="imagem_valida_documentox.png" alt=""> 
+<img src="imagem_valida_documentox.png" alt="" width="500" height="500"> 
 
 ## Créditos
 
