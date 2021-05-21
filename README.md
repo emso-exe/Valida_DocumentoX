@@ -9,7 +9,7 @@ Biblioteca para validação de documentos (CPF e CNPJ).
 **Método 1**. Adicione ao arquivo **composer.json** o trecho abaixo, após isso execute o **install** ou **update** do composer.
 ```bash
 "require": {
-        "emso-exe/valida_documentox": "dev-master"
+        "emso-exe/valida_documentox": "dev-main"
     }
 ```
 
