@@ -1,6 +1,6 @@
 {
     "name": "emso-exe/valida_documentox",
-    "description": "Biblioteca para validação de documentos.",
+    "description": "Biblioteca para validação de documentos (CPF e RG).",
     "type": "library",
     "license": "MIT",
     "authors": [
