@@ -3,6 +3,13 @@
     "description": "Biblioteca para validação de documentos (CPF e RG).",
     "type": "library",
     "license": "MIT",
+    "keywords": [
+        "validacao",
+        "validar",
+        "documento",
+        "rg",
+        "cpf"
+    ],
     "authors": [
         {
             "name": "Estênio Mariano",
